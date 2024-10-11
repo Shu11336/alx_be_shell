@@ -1,2 +1,4 @@
 #!/bin/bash
-echo -e 'su betty' > switch_to_betty.sh; chmod +x switch_to_betty.sh; ./switch_to_betty.sh
+echo -e '#!/bin/bash\nsu betty' > switch_to_betty.sh
+chmod +x switch_to_betty.sh
+./switch_to_betty.sh
