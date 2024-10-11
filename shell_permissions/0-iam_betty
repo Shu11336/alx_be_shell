@@ -1,5 +1,6 @@
 nano switch_to_betty.sh
 
+#!/bin/bash
 su betty
 
 chmod +x switch_to_betty.sh
