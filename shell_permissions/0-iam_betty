@@ -1,0 +1,7 @@
+nano switch_to_betty.sh
+
+su betty
+
+chmod +x switch_to_betty.sh
+
+./switch_to_betty.sh
